@@ -274,6 +274,8 @@ svg {
   object-fit: cover;
 }
 
+/* MEDIA 768PX----------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 @media (min-width: 768px) {
   header img {
     width: 20%;
@@ -334,5 +336,60 @@ svg {
     object-fit: cover;
     height: 10rem;
     width: 15rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    padding: 0.7rem 4rem;
+  }
+
+  header img {
+    width: 8%;
+  }
+
+  .hero div {
+    padding-left: 4rem;
+  }
+
+  .hero {
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+
+  .hero svg {
+    position: absolute;
+    right: -30%;
+    width: 500px;
+    height: auto;
+    z-index: 1;
+    pointer-events: none;
+  }
+  article {
+    padding-left: 4rem;
+  }
+
+  .sectionTrend h5 {
+    padding-left: 4rem;
+  }
+  .sectionInfo {
+    padding-left: 4rem;
+  }
+
+  .raccoltaLink {
+    order: 2;
+  }
+
+  .mainSito {
+    border-top: 1px solid gray;
+    display: flex;
+    padding-top: 2rem;
+  }
+
+  .sectionDiscover {
+    border: none;
   }
 }
