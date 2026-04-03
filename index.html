@@ -20,15 +20,15 @@
   <body>
     <header>
       <img src="./assets/imgs/svg/logo.svg" alt="logo medium" />
-      <div><button>Sign in</button><button>Get Started</button></div>
+      <div><a href="#">Sign in</a><a href="#">Get Started</a></div>
     </header>
     <main>
-      <section>
-        <h1>Stay curious</h1>
+      <section class="hero">
+        <h1>Stay curious.</h1>
         <p>
           Discover stories, thinking, and expertise from writers on any topic.
         </p>
-        <button>Start reading</button>
+        <a href="#">Start reading</a>
         <!-- ARTWORK con "M" ripetute -->
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -9266,38 +9266,38 @@
             <p>·</p>
             <p>24 min read</p>
           </div>
-
-          <article class="trending">
-            <h3>
-              <img src="./assets/imgs/image03.jpeg" alt="logo Tom Cooper" />Tom
-              Cooper
-            </h3>
-            <h2>
-              How I Learned to Love My Breasts Even Though One Is A Horcrux For
-              Voldemort
-            </h2>
-            <div>
-              <p>Oct 26</p>
-              <p>·</p>
-              <p>2 min read</p>
-            </div>
-          </article>
-
-          <article class="trending">
-            <h3>
-              <img
-                src="./assets/imgs/image04.png"
-                alt="logo Frank Mastropolo in The Riffk"
-              />Frank Mastropolo in The Riffk
-            </h3>
-            <h2>The Night Paul McCartney Donned a Disguise at Fillmore East</h2>
-            <div>
-              <p>Oct 22</p>
-              <p>·</p>
-              <p>3 min read</p>
-            </div>
-          </article>
         </article>
+        <article class="trending">
+          <h3>
+            <img src="./assets/imgs/image03.jpeg" alt="logo Tom Cooper" />Tom
+            Cooper
+          </h3>
+          <h2>
+            How I Learned to Love My Breasts Even Though One Is A Horcrux For
+            Voldemort
+          </h2>
+          <div>
+            <p>Oct 26</p>
+            <p>·</p>
+            <p>2 min read</p>
+          </div>
+        </article>
+
+        <article class="trending">
+          <h3>
+            <img
+              src="./assets/imgs/image04.png"
+              alt="logo Frank Mastropolo in The Riffk"
+            />Frank Mastropolo in The Riffk
+          </h3>
+          <h2>The Night Paul McCartney Donned a Disguise at Fillmore East</h2>
+          <div>
+            <p>Oct 22</p>
+            <p>·</p>
+            <p>3 min read</p>
+          </div>
+        </article>
+
         <article class="trending">
           <h3>
             <img
@@ -9333,11 +9333,15 @@
         <article>
           <h4>Discover more of what matters to you</h4>
           <div>
-            <a href="#">Programming</a><a href="#">Data Science</a
-            ><a href="#">Technology</a><a href="#">Self Improvement</a
-            ><a href="#">Writing</a><a href="#">Relationships</a
-            ><a href="#">Machine Learning</a><a href="#">Productivity</a
-            ><a href="#">Politics</a>
+            <a href="#">Programming</a>
+            <a href="#">Data Science</a>
+            <a href="#">Technology</a>
+            <a href="#">Self Improvement</a>
+            <a href="#">Writing</a>
+            <a href="#">Relationships</a>
+            <a href="#">Machine Learning</a>
+            <a href="#">Productivity</a>
+            <a href="#">Politics</a>
           </div>
         </article>
       </section>
@@ -9368,19 +9372,21 @@
                 perspectives can be predictive of how well we age
               </p>
             </div>
-            <div>
+            <div class="articleInfo">
               <div>
                 <p>Oct 27</p>
                 <p>·</p>
                 <p>5 min read</p>
                 <p>·</p>
                 <p>Aging</p>
-                <i class="fas fa-star"></i>
+                <img src="./assets/imgs/svg/star.svg" alt="star" />
               </div>
-              <i class="far fa-bookmark"></i>
+              <img src="./assets/imgs/svg/bookmark.svg" alt="bookmark" />
             </div>
           </div>
-          <img src="./assets/imgs/image08.jpeg" alt="" />
+          <div class="imgArticolo">
+            <img src="./assets/imgs/image08.jpeg" alt="" />
+          </div>
         </article>
         <article class="article">
           <div>
@@ -9396,19 +9402,21 @@
                 Can you speak about your trauma if you don't look traumatized?
               </p>
             </div>
-            <div>
+            <div class="articleInfo">
               <div>
                 <p>Oct 24</p>
                 <p>·</p>
                 <p>6 min read</p>
                 <p>·</p>
                 <p>Health</p>
-                <i class="fas fa-star"></i>
+                <img src="./assets/imgs/svg/star.svg" alt="star" />
               </div>
-              <i class="far fa-bookmark"></i>
+              <img src="./assets/imgs/svg/bookmark.svg" alt="bookmark" />
             </div>
           </div>
-          <img src="./assets/imgs/image10.jpeg" alt="" />
+          <div class="imgArticolo">
+            <img src="./assets/imgs/image10.jpeg" alt="" />
+          </div>
         </article>
         <article class="article">
           <div>
@@ -9425,19 +9433,21 @@
                 work at all times, also the liability.
               </p>
             </div>
-            <div>
+            <div class="articleInfo">
               <div>
                 <p>Oct 15</p>
                 <p>·</p>
                 <p>5 min read</p>
                 <p>·</p>
                 <p>Software Engineering</p>
-                <i class="fas fa-star"></i>
+                <img src="./assets/imgs/svg/star.svg" alt="star" />
               </div>
-              <i class="far fa-bookmark"></i>
+              <img src="./assets/imgs/svg/bookmark.svg" alt="bookmark" />
             </div>
           </div>
-          <img src="./assets/imgs/image12.png" alt="" />
+          <div class="imgArticolo">
+            <img src="./assets/imgs/image12.png" alt="" />
+          </div>
         </article>
         <article class="article">
           <div>
@@ -9454,19 +9464,21 @@
                 planet
               </p>
             </div>
-            <div>
+            <div class="articleInfo">
               <div>
                 <p>Oct 26</p>
                 <p>·</p>
                 <p>7 min read</p>
                 <p>·</p>
                 <p>Health</p>
-                <i class="fas fa-star"></i>
+                <img src="./assets/imgs/svg/star.svg" alt="star" />
               </div>
-              <i class="far fa-bookmark"></i>
+              <img src="./assets/imgs/svg/bookmark.svg" alt="bookmark" />
             </div>
           </div>
-          <img src="./assets/imgs/image14.png" alt="" />
+          <div class="imgArticolo">
+            <img src="./assets/imgs/image14.png" alt="" />
+          </div>
         </article>
         <article class="article">
           <div>
@@ -9484,19 +9496,21 @@
                 kick 10,000...
               </p>
             </div>
-            <div>
+            <div class="articleInfo">
               <div>
                 <p>Oct 26</p>
                 <p>·</p>
                 <p>7 min read</p>
                 <p>·</p>
                 <p>Health</p>
-                <i class="fas fa-star"></i>
+                <img src="./assets/imgs/svg/star.svg" alt="star" />
               </div>
-              <i class="far fa-bookmark"></i>
+              <img src="./assets/imgs/svg/bookmark.svg" alt="bookmark" />
             </div>
           </div>
-          <img src="./assets/imgs/image16.jpg" alt="" />
+          <div class="imgArticolo">
+            <img src="./assets/imgs/image16.jpg" alt="" />
+          </div>
         </article>
         <article class="article">
           <div>
@@ -9513,19 +9527,21 @@
                 surprising confessions
               </p>
             </div>
-            <div>
+            <div class="articleInfo">
               <div>
                 <p>Jan 18, 2020</p>
                 <p>·</p>
                 <p>6 min read</p>
                 <p>·</p>
                 <p>Experiences</p>
-                <i class="fas fa-star"></i>
+                <img src="./assets/imgs/svg/star.svg" alt="star" />
               </div>
-              <i class="far fa-bookmark"></i>
+              <img src="./assets/imgs/svg/bookmark.svg" alt="bookmark" />
             </div>
           </div>
-          <img src="./assets/imgs/image18.jpeg" alt="" />
+          <div class="imgArticolo">
+            <img src="./assets/imgs/image18.jpeg" alt="" />
+          </div>
         </article>
         <article class="article">
           <div>
@@ -9544,19 +9560,21 @@
                 and…
               </p>
             </div>
-            <div>
+            <div class="articleInfo">
               <div>
                 <p>Oct 24</p>
                 <p>·</p>
                 <p>6 min read</p>
                 <p>·</p>
                 <p>Health</p>
-                <i class="fas fa-star"></i>
+                <img src="./assets/imgs/svg/star.svg" alt="star" />
               </div>
-              <i class="far fa-bookmark"></i>
+              <img src="./assets/imgs/svg/bookmark.svg" alt="bookmark" />
             </div>
           </div>
-          <img src="./assets/imgs/image20.jpg" alt="" />
+          <div class="imgArticolo">
+            <img src="./assets/imgs/image20.jpg" alt="" />
+          </div>
         </article>
       </section>
     </main>
